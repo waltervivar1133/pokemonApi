@@ -5,7 +5,7 @@ async function getPokemon(id) {
 }
 
 async function init() {
-  
+
   const Pokemon = await getPokemon(1);
   updatePokemon(Pokemon)
   console.log(Pokemon);
@@ -33,7 +33,5 @@ window.buscar.addEventListener('change', async (event) => {
     limpiar();
   }
 
-  
+
 })
-
-
